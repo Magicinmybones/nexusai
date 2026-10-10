@@ -1,0 +1,23 @@
+# Local dependencies and generated output
+node_modules/
+.wrangler/
+dist/
+coverage/
+
+# Local secrets and configuration
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+!.env.example
+
+# Logs, temporary files, and editor state
+*.log
+*.tmp
+*.bak
+*.zip
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
